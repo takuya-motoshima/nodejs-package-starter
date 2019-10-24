@@ -1,13 +1,8 @@
 # nodejs-package-starter
 
-${DESCRIPTION}
+>This is the template for starting a Node.js package
 
-<!-- ## Usage
-```js
-
-```
- -->
-
+<!-- ## Usage -->
 
 ## Quick Start
 
@@ -49,9 +44,7 @@ node -r esm app;
 
 <!-- ## Demo -->
 
-
 ## Unit test the package
-
 Test nodejs-package-starter:
 ```sh
 cd ./node_modules/nodejs-package-starter/;
@@ -59,17 +52,12 @@ npx jest --coverage;
 #npm run test;
 ```
 
-
 ## Reference
 - [First npm package release-Qiita](https://qiita.com/TsutomuNakamura/items/f943e0490d509f128ae2#%E5%B1%A5%E6%AD%B4)
-- [https://blog.katsubemakito.net/nodejs/publish_npm_package_for_beginners](Introduction to npm package release)
-
+- [Introduction to npm package release](https://blog.katsubemakito.net/nodejs/publish_npm_package_for_beginners)
 
 ## License
-
 [MIT](LICENSE.txt)
-
-
 
 ## Author
 - Twitter: [@TakuyaMotoshima](https://twitter.com/taaaaaaakuya)
