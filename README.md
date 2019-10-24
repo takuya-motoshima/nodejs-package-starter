@@ -55,7 +55,8 @@ node -r esm app;
 Test nodejs-package-starter:
 ```sh
 cd ./node_modules/nodejs-package-starter/;
-npm run test;
+npx jest --coverage;
+#npm run test;
 ```
 
 
