@@ -1,13 +1,22 @@
 {
   "name": "nodejs-package-starter",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "This is the template for starting a Node.js package",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
     "test": "jest --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "node.js",
+    "nodejs",
+    "node",
+    "app",
+    "web",
+    "library",
+    "module",
+    "package"
+  ],
   "author": "Takuya Motoshima <developer.takuyamotoshima@gmail.com> (https://github.com/takuya-motoshima)",
   "license": "MIT",
   "repository": "github:takuya-motoshima/nodejs-package-starter",
