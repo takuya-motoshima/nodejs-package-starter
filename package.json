@@ -1,6 +1,6 @@
 {
   "name": "nodejs-package-starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is the template for starting a Node.js package",
   "type": "module",
   "main": "src/index.js",
