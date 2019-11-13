@@ -4,35 +4,40 @@
 
 <!-- ## Usage -->
 
-## Quick Start
+## Try this library
 
-1. Create the app:
+1. Create project directory structure.
 
     ```sh
-    mkdir /tmp/foo && cd $_;
+    mkdir myapp && cd $_;
+    ```
+
+1. Create the project configuration file.
+
+    ```sh
     npm init -y;
     ```
 
-1. Since the package is ESM, install ESM:
+1. Install esm package to use ES modules format in node.js.
 
     ```sh
     npm i -S esm;
     ```
 
-1. Install nodejs-package-starter:
+1. Install this library.
 
     ```sh
     npm i -S nodejs-package-starter;
     ```
 
-1. Create main module: 
+1. Create main module.
 
     ```sh
-    vi /tmp/foo/app.js;
+    vi myapp/app.js;
     ```
 
     ```js
-    /* /tmp/foo/app.js */
+    /* myapp/app.js */
     import {add, sub, div, mul} from 'nodejs-package-starter';
     console.log(`add(1,2)=${add(1,2)}`);
     console.log(`sub(1,2)=${sub(1,2)}`);
@@ -40,16 +45,16 @@
     console.log(`mul(1,2)=${mul(1,2)}`);
     ```
 
-1. Run the main module: 
+1. Run the main module. 
 
     ```sh
-    cd /tmp/foo/;
+    cd myapp;
     node -r esm app;
     ```
 
 ## Unit test the package
-Test nodejs-package-starter:
 
+Test nodejs-package-starter
 ```sh
 cd ./node_modules/nodejs-package-starter/;
 npx jest --coverage;
@@ -148,7 +153,7 @@ Put the packages required for development.
 1. Increase version
 
     ```sh
-    npm version patch -m 'Updated module'
+    npm version patch -m "Updated module";
     ```
 
 1. Create a new version tag on Github

@@ -8,7 +8,6 @@
     "test": "jest --coverage"
   },
   "keywords": [
-    "node.js",
     "nodejs",
     "node",
     "app",
