@@ -1,6 +1,4 @@
-import sub from './sub.js';
-test('sub 3 - 1 to equal 2', () => {
-  expect(sub(3, 1)).toBe(2);
+import {sub} from './mylib';
+test('sub 1 - 2 to equal -1', () => {
+  expect(sub(1, 2)).toBe(-1);
 });
-
-
