@@ -1,6 +1,6 @@
 {
   "name": "nodejs-package-starter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a start kit that creates an ES Modules format library that runs on node.js.",
   "type": "module",
   "main": "src/mylib.js",
